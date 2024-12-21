@@ -7,7 +7,7 @@ import axios, {
 } from "axios";
 
 export interface HttpResponse<T = unknown> {
-  headers: Record<string, any>;
+  headers: Record<string, any>; 
   statusCode: number;
   hasError: boolean;
   data?: T;
